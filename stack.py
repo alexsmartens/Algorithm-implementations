@@ -29,6 +29,7 @@ class Stack:
 
     def pop(self):
         if self.is_empty():
+            print("Attention: stack underflow")
             return None
         else:
             new_item = self.items[self.top - 1]
