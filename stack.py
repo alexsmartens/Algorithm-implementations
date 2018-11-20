@@ -1,6 +1,7 @@
-# This stack.py implementation follows  idea from CLRS, Chapter 2
+# This stack.py implementation follows idea from CLRS, Chapter 10.2
 
-class stack:
+
+class Stack:
 
     def __init__(self):
         self.items = []
@@ -43,8 +44,8 @@ class stack:
         print(self.items)
 
 
-# Running simple example using the stack.py class
-myStack = stack()
+# Running simple examples
+myStack = Stack()
 print("is_empty: " + str(myStack.is_empty()))
 print("top: " + str(myStack.top))
 
