@@ -1,2 +1,3 @@
-# Algorithm-implementations
-Implementing some algorithms and data structures while doing Algorithms, Data Structures and Analysis Course CSC 263 at UofT
+# Algorithm and Data Structures Implementations
+This repository contains implementations of some well known data structures and algorithms. Majority of the algorithms are implemented based on the following book:
+Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). Introduction to algorithms. MIT press 
