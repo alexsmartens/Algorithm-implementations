@@ -34,6 +34,9 @@ class Queue:
             print("Attention: queue underflow")
             return None
 
+    def is_empty(self):
+        return len(self.items) == 0
+
 
 # Running simple examples
 my_queue = Queue()
@@ -60,6 +63,7 @@ my_queue.enqueue(3)
 my_queue.enqueue(17)
 print("my_queue.dequeue(): ")
 print(my_queue.dequeue())
+print("is_empty = " + str(my_queue.is_empty()))
 
 print("my_queue.items: ")
 print(my_queue.items)
